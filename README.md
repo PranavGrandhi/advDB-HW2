@@ -25,7 +25,7 @@
 
 ## Question 2: 
 
-### Rule of Thumb
+### Rule of Thumb1
 
 1. **Non-covering clustered index** should give better performance for a multipoint query than a **Non-covering Non-clustered index**.
 
@@ -45,6 +45,26 @@ Clustered
 ![MySQL_Clustered](https://github.com/user-attachments/assets/294d437e-064b-494f-80ab-9573e1af7a10)
 Non Clustered
 ![MySQL_NonClustered](https://github.com/user-attachments/assets/8db3311a-c722-47b5-b393-c96216eb5f64)
+
+### Rule of Thumb2
+
+1. **Indexes** are most effective when they have high **selectivity** (i.e., the indexed column contains many unique values).
+
+### Distributions:
+- **Uniform Distribution**: Uniformly distributed dataset of size 10 million numbers.
+- **Skewed Distribution**: Skewed distribution of data where 70% of the numbers are between 1-5, 20% of the data are between 6-15, and 10% of the data in 16-1000
+- Run `gen_Data_thumb2.py` to create `uniform_data_thumb2.csv` and `skewed_data_thumb2.csv`.
+
+Run thumb2.sql to get these results for Rule of Thumb2 in MySQL
+| Index Type                     | Uniform Distribution (seconds) | Skewed Distribution (seconds) |
+|--------------------------------|---------------------------------|---------------------------------|
+| With Indexing                  | 0.360                           | 2.797                           |
+| Wihtout Indexing               | 4.875                           | 3.563                           |
+| Difference                     | 4.515                           | 0.766                           |
+
+Here are the screenshots of running locally (times are in the bottom)
+![MySQL_thumb2](https://github.com/user-attachments/assets/653e4cf7-ec26-46be-9b58-06f91ab767a9)
+
 
 ---
 
