@@ -34,11 +34,11 @@
 - **Uniform Distribution**: Run `gen_uniform_distr.py` to create `uniform_trades.csv`.
 
 Run thumb1.sql to get these results for Rule of Thumb1 in MySQL
-| Index Type                     | Uniform Distribution (seconds) | Fractal Distribution (seconds) | Difference |
-|--------------------------------|---------------------------------|---------------------------------|------------|
-| Non-Covering Clustered Index   | 7.047                           | 7.156                           |            |
-| Non-Covering Non-Clustered Index | 8.641                         | 8.656                           |            |
-| Difference                     | 1.594                           | 1.500                           |            |
+| Index Type                     | Uniform Distribution (seconds) | Fractal Distribution (seconds) |
+|--------------------------------|---------------------------------|---------------------------------|
+| Non-Covering Clustered Index   | 7.047                           | 7.156                           |
+| Non-Covering Non-Clustered Index | 8.641                         | 8.656                           |
+| Difference                     | 1.594                           | 1.500                           |
 
 Here are the screenshots of running locally (times are in the bottom)
 Clustered
