@@ -25,10 +25,13 @@
 
 ## Question 2: 
 
-Rule of thumb1: Non-covering clustered index should give better performance for a multipoint query than a Non-covering Non-clustered index.
-Distributions: Fractal Distribution and Uniform Distribution of Stocks
-Run gen_uniform_distr.py to create uniform_trades.csv. 
-For fractal_trades, we are using the same dataset from question 1
+### Rule of Thumb
+
+1. **Non-covering clustered index** should give better performance for a multipoint query than a **Non-covering Non-clustered index**.
+
+### Distributions:
+- **Fractal Distribution**: Using the same dataset from Question 1.
+- **Uniform Distribution**: Run `gen_uniform_distr.py` to create `uniform_trades.csv`.
 
 Run thumb1.sql to get these results for Rule of Thumb1 in MySQL
 | Index Type                     | Uniform Distribution (seconds) | Fractal Distribution (seconds) | Difference |
