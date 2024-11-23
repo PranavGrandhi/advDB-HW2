@@ -39,11 +39,11 @@
 3. Verify Results:
    - Queries were tested locally using MySQL.
    - A screenshot of the query execution is attached.
+---![MySQL Query run](https://github.com/user-attachments/assets/f3fd18e6-b05b-4243-a14e-fa0b9929e053)
 
 ### Files:
 - `Result.zip`: Contains the zipped output result file (`result.csv`).
 
----
 
 ## Attachments:
 - `Queries_Q1.zip`: Contains the typescript file from Question 1.
