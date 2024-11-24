@@ -102,6 +102,29 @@ I have included codes for Postgres Queries in the Postgres_Thumb2.s file. These 
 |Without Indexing | 19.289                         |9148.476                            | 9.167762                       | 1.474                            | 22200.418                             | 22.201892                       |
 | Difference                     |                            |                         | 3.51676                        |                         |                              | 2.258866                       |
 
+
+Uniform Distribution/Including Indexing
+
+<img width="738" alt="image" src="https://github.com/user-attachments/assets/5b048602-d31b-4058-b0f1-ab3814e06c1f">
+
+
+Skewed Distribution/Without Indexing
+
+<img width="734" alt="image" src="https://github.com/user-attachments/assets/8fb67fd5-ec76-446f-87a2-1cf3f8f205a7">
+
+
+Uniform Distribution/Including Indexing
+
+<img width="724" alt="image" src="https://github.com/user-attachments/assets/57e81fae-8414-4290-a5f1-b3f2eeb5be8f">
+
+
+Skewed Distribution/ Without Indexing
+
+<img width="737" alt="image" src="https://github.com/user-attachments/assets/209142db-1ce5-45a9-8b65-777f2ffbeb0a">
+
+
+
+
 ---
 
 ## Question 3: Friends and Likes Queries in MySQL
