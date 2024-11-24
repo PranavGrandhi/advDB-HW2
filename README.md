@@ -123,7 +123,7 @@ Skewed Distribution/ Without Indexing
 <img width="737" alt="image" src="https://github.com/user-attachments/assets/209142db-1ce5-45a9-8b65-777f2ffbeb0a">
 
 
-###Modifications to Rule of Thumbs that dont depend on data disributions
+### Modifications to Rule of Thumbs that dont depend on data disributions
 ### Rule of Thumb1
 Original Rule: Non-covering clustered index should give better performance for a multipoint query than a non-covering non-clustered index.
 
