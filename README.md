@@ -40,11 +40,21 @@ Run thumb1.sql to get these results for Rule of Thumb1 in MySQL
 | Non-Covering Non-Clustered Index | 8.641                         | 8.656                           |
 | Difference                     | 1.594                           | 1.500                           |
 
+
 Here are the screenshots of running locally (times are in the bottom)
 Clustered
 ![MySQL_Clustered](https://github.com/user-attachments/assets/294d437e-064b-494f-80ab-9573e1af7a10)
 Non Clustered
 ![MySQL_NonClustered](https://github.com/user-attachments/assets/8db3311a-c722-47b5-b393-c96216eb5f64)
+
+I have included codes for Postgres Queries in the Postgres_Thumb1.s file. These queries are supposed to be run on the shell one by one so as to get the result.
+
+| Index Type                     | Planning Time (Uniform, seconds) | Execution Time (Uniform, seconds) | Total Time (Uniform, seconds) | Planning Time (Fractal, seconds) | Execution Time (Fractal, seconds) | Total Time (Fractal, seconds) |
+|--------------------------------|----------------------------------|-----------------------------------|-------------------------------|----------------------------------|-----------------------------------|-------------------------------|
+| Non-Covering Clustered Index   | 10.149                           | 13547.375                             | 13.557524                      | 0.056                            | 7.100                             | 7.156                        |
+| Non-Covering Non-Clustered Index | 19.289                         | 14270.868                             | 14.290157                       | 57.844                             | 14237.571                             | 14.295415                       |
+| Difference                     |                            |                         | 0.732633                        |                         |                              | 0.788659                        |
+
 
 ### Rule of Thumb2
 
