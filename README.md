@@ -58,15 +58,19 @@ I have included codes for Postgres Queries in the Postgres_Thumb1.s file. These 
 Below are the runs for the Postgres queries on Crunchy:
 
 Uniform Distribution/Clustered
+
 ![image](https://github.com/user-attachments/assets/be335ebd-f379-4c6f-b5ed-a8779422cec0)
 
 Fractal Distribution/Clustered
+
 <img width="738" alt="image" src="https://github.com/user-attachments/assets/72d7b2d9-e989-426a-baa6-8e6503493d5e">
 
 Uniform Distribution/Non Clustered
+
 <img width="740" alt="image" src="https://github.com/user-attachments/assets/801780c2-0e08-4d5b-8d31-c6e79116a244">
 
 Fractal Distribution/ Non Clustered
+
 <img width="740" alt="image" src="https://github.com/user-attachments/assets/1abc148e-3aa2-47fc-bc73-6526517295bf">
 
 
