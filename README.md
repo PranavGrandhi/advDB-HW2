@@ -123,7 +123,16 @@ Skewed Distribution/ Without Indexing
 <img width="737" alt="image" src="https://github.com/user-attachments/assets/209142db-1ce5-45a9-8b65-777f2ffbeb0a">
 
 
+###Modifications to Rule of Thumbs that dont depend on data disributions
+### Rule of Thumb1
+Original Rule: Non-covering clustered index should give better performance for a multipoint query than a non-covering non-clustered index.
 
+Modified Rule: Using a covering index for multipoint queries provides consistent performance benefits over non-covering indexes, regardless of whether the index is clustered or non-clustered and independent of data distribution.
+
+### Rule of Thumb2
+Original Rule: Indexes are most effective when they have high selectivity (i.e., the indexed column contains many unique values).
+
+Modified Rule: Indexes are most effective when used in queries with highly selective predicates—that is, when queries filter out a large portion of the data—regardless of the uniqueness or distribution of values in the indexed column.
 
 ---
 
