@@ -51,9 +51,24 @@ I have included codes for Postgres Queries in the Postgres_Thumb1.s file. These 
 
 | Index Type                     | Planning Time (Uniform, seconds) | Execution Time (Uniform, seconds) | Total Time (Uniform, seconds) | Planning Time (Fractal, seconds) | Execution Time (Fractal, seconds) | Total Time (Fractal, seconds) |
 |--------------------------------|----------------------------------|-----------------------------------|-------------------------------|----------------------------------|-----------------------------------|-------------------------------|
-| Non-Covering Clustered Index   | 10.149                           | 13547.375                             | 13.557524                      | 0.056                            | 7.100                             | 7.156                        |
+| Non-Covering Clustered Index   | 10.149                           | 13547.375                             | 13.557524                      | 3.432        | 13503.324                             | 13.506756                        |
 | Non-Covering Non-Clustered Index | 19.289                         | 14270.868                             | 14.290157                       | 57.844                             | 14237.571                             | 14.295415                       |
 | Difference                     |                            |                         | 0.732633                        |                         |                              | 0.788659                        |
+
+Below are the runs for the Postgres queries on Crunchy:
+
+Uniform Distribution/Clustered
+![image](https://github.com/user-attachments/assets/be335ebd-f379-4c6f-b5ed-a8779422cec0)
+
+Fractal Distribution/Clustered
+<img width="738" alt="image" src="https://github.com/user-attachments/assets/72d7b2d9-e989-426a-baa6-8e6503493d5e">
+
+Uniform Distribution/Non Clustered
+<img width="740" alt="image" src="https://github.com/user-attachments/assets/801780c2-0e08-4d5b-8d31-c6e79116a244">
+
+Fractal Distribution/ Non Clustered
+<img width="740" alt="image" src="https://github.com/user-attachments/assets/1abc148e-3aa2-47fc-bc73-6526517295bf">
+
 
 
 ### Rule of Thumb2
