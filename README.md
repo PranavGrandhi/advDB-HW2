@@ -49,7 +49,7 @@ Non Clustered
 
 I have included codes for Postgres Queries in the Postgres_Thumb1.s file. These queries are supposed to be run on the shell one by one so as to get the result.
 
-| Index Type                     | Planning Time (Uniform, seconds) | Execution Time (Uniform, seconds) | Total Time (Uniform, seconds) | Planning Time (Fractal, seconds) | Execution Time (Fractal, seconds) | Total Time (Fractal, seconds) |
+| Index Type                     | Planning Time (Uniform, milliseconds) | Execution Time (Uniform, milliseconds) | Total Time (Uniform, seconds) | Planning Time (Fractal, milliseconds) | Execution Time (Fractal, milliseconds) | Total Time (Fractal, seconds) |
 |--------------------------------|----------------------------------|-----------------------------------|-------------------------------|----------------------------------|-----------------------------------|-------------------------------|
 | Non-Covering Clustered Index   | 10.149                           | 13547.375                             | 13.557524                      | 3.432        | 13503.324                             | 13.506756                        |
 | Non-Covering Non-Clustered Index | 19.289                         | 14270.868                             | 14.290157                       | 57.844                             | 14237.571                             | 14.295415                       |
@@ -94,6 +94,13 @@ Run thumb2.sql to get these results for Rule of Thumb2 in MySQL
 Here are the screenshots of running locally (times are in the bottom)
 ![MySQL_thumb2](https://github.com/user-attachments/assets/653e4cf7-ec26-46be-9b58-06f91ab767a9)
 
+I have included codes for Postgres Queries in the Postgres_Thumb2.s file. These queries are supposed to be run on the shell one by one so as to get the result.
+
+| Index Type                     | Planning Time (Uniform, milliseconds) | Execution Time (Uniform, milliseconds) | Total Time (Uniform, seconds) | Planning Time (Skewed, milliseconds) | Execution Time (Skewed, milliseconds) | Total Time (Skewed, seconds) |
+|--------------------------------|----------------------------------|-----------------------------------|-------------------------------|----------------------------------|-----------------------------------|-------------------------------|
+| With Indexing  | 2.438                           | 5648.564                             | 5.651002                      | 1.903        | 19941.123                             | 19.943026                        |
+|Without Indexing | 19.289                         |9148.476                            | 9.167762                       | 1.474                            | 22200.418                             | 22.201892                       |
+| Difference                     |                            |                         | 3.51676                        |                         |                              | 2.258866                       |
 
 ---
 
